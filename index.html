@@ -152,7 +152,7 @@
 
     <section class="section contact-section" id="contact" aria-labelledby="contact-title">
       <div class="container contact-grid">
-        <div class="contact-copy"><div class="eyebrow">Let’s find a useful first step</div><h2 id="contact-title">What’s slowing<br><span class="serif">your business down?</span></h2><p>Tell Ryan about one process you’d like to improve. A few lines about the task and the systems involved is a good place to start.</p><div class="contact-email-label">Email Ryan directly</div><a class="email-link" href="mailto:ryandavidburns@hotmail.com">ryandavidburns@hotmail.com <span aria-hidden="true">↗</span></a><div class="contact-location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 21S5 14 5 8A7 7 0 0 1 19 8C19 14 12 21 12 21Z"/><circle cx="12" cy="8" r="2"/></svg>Sligo &amp; the North West · Remote across Ireland</div></div>
+        <div class="contact-copy"><div class="eyebrow">Let’s find a useful first step</div><h2 id="contact-title">What’s slowing<br><span class="serif">your business down?</span></h2><p>Tell Ryan about one process you’d like to improve. A few lines about the task and the systems involved is a good place to start.</p><div class="contact-email-label">Email Ryan directly</div><a class="email-link" href="mailto:burnstechnologyservices@gmail.com">burnstechnologyservices@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 21S5 14 5 8A7 7 0 0 1 19 8C19 14 12 21 12 21Z"/><circle cx="12" cy="8" r="2"/></svg>Sligo &amp; the North West · Remote across Ireland</div></div>
         <form class="enquiry" id="enquiry-form" aria-label="Prepare a project enquiry" hidden>
           <h3>A little context goes a long way.</h3><p class="form-intro">Prepare an email to Ryan. You can review it in your email app before sending.</p>
           <div class="form-fields"><div class="field"><label for="enquiry-name">Your name <span>(optional)</span></label><input id="enquiry-name" name="name" autocomplete="name" maxlength="100" placeholder="Your name"></div><div class="field"><label for="enquiry-company">Business <span>(optional)</span></label><input id="enquiry-company" name="company" autocomplete="organization" maxlength="150" placeholder="Business name"></div></div>
@@ -201,7 +201,7 @@
         if (!message) { document.getElementById('enquiry-message').setCustomValidity('Please describe the process you would like to improve.'); document.getElementById('enquiry-message').reportValidity(); return; }
         const subject = 'Project enquiry: ' + service;
         const body = 'Hi Ryan,\n\nI’d like to discuss ' + service.toLowerCase() + '.\n\n' + message + '\n\nBusiness: ' + (company || 'Not provided') + '\nName: ' + (name || 'Not provided') + '\n\nBest regards,\n' + name;
-        const mailto = 'mailto:ryandavidburns@hotmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+        const mailto = 'mailto:burnstechnologyservices@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
         document.getElementById('form-status').textContent = 'Your email app should open with a draft to review. Nothing has been sent. If it does not open, email Ryan directly using the address alongside this form.';
         window.location.href = mailto;
       });
