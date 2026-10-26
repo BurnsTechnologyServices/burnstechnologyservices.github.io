@@ -1,0 +1,9 @@
+/* Ryan's portrait; the supplied photograph is displayed without retouching. */
+.customer-founder-copy{flex:1;min-width:0}
+.customer-founder-copy .eyebrow{margin-bottom:9px}
+.founder-home-photo{display:block;width:124px;height:148px;object-fit:cover;object-position:50% 45%;flex-shrink:0;border-radius:8px;border:1px solid #cdd9e5}
+.founder-visual.with-photo{display:block;padding:0;background:#fff}
+.founder-photo{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 45%;border-bottom:1px solid #cedbe9}
+.founder-caption{padding:24px 28px}
+@media(max-width:900px){.customer-founder{gap:24px;flex-wrap:wrap;align-items:center}.customer-founder-copy{flex-basis:calc(100% - 148px)}.customer-founder>.text-link{margin-left:148px}}
+@media(max-width:600px){.customer-founder{display:block}.founder-home-photo{width:112px;height:134px;margin-bottom:22px}.customer-founder>.text-link{margin-left:0;margin-top:20px}.founder-visual.with-photo{max-width:340px}.founder-caption{padding:22px 24px}}
